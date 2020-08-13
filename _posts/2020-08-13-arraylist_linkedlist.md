@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: post
 title: ArrayList vs LinkedList
 date: 2020-08-13 16:32:23 +0900
 category: java
