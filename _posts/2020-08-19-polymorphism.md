@@ -78,7 +78,7 @@ public class Main {
     	Fruit f = new Apple();
     	f.info();
 
-        // 2번
+        // 2번 (1번과 동일한 출력결과를 얻는다.)
         // Apple a = new Apple();
         // a.info();
     }
