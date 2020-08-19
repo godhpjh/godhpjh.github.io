@@ -97,6 +97,7 @@ Apple 인스턴스 생성!
 class Parent {
 
     public String str = "Fruit";
+    public String pa = "pa";
 
     public String getStr() {
 
@@ -112,6 +113,7 @@ class Parent {
 class Child extends Parent {
 
     public String str = "Apple";
+    public String ch = "ch";
 
     public String getStr() {
 
@@ -133,11 +135,18 @@ public class Main {
 
         System.out.println(child.str);
         System.out.println(child.getStr());
-        child.hello();
+        child.hello(); // static 이라 각 클래스의 이름을 가져오게된다.
+        // 만약 Class의 static이 없다면 자식 클래스가 호출된다.
 
         System.out.println(parent.str);
         System.out.println(parent.getStr());
-        parent.hello();
+        parent.hello(); // static 이라 각 클래스의 이름을 가져오게된다.
+        // 만약 Class의 static이 없다면 자식 클래스가 호출된다.
+
+        System.out.println(parent.pa);
+        System.out.println(child.pa); // 부모클래스의 변수도 사용할 수 있다.
+        System.out.println(child.ch);
+
     }
 }
 ```
@@ -148,4 +157,7 @@ Apple
 Fruit
 Apple
 헬로우
+pa
+pa
+ch
 ```
