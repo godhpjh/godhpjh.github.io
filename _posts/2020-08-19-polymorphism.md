@@ -133,13 +133,13 @@ public class Main {
         Child child = new Child();
         Parent parent = child;
 
-        System.out.println(child.str);
-        System.out.println(child.getStr());
+        System.out.println(child.str); // 기존 parent클래스의 str변수가 child클래스에서 str변수를 새롭게 정의하였다.(즉, 부모 변수로부터 덮어씌움)
+        System.out.println(child.getStr()); // 오버라이드된 메서드 호출
         child.hello(); // static 이라 각 클래스의 이름을 가져오게된다.
         // 만약 Class의 static이 없다면 자식 클래스가 호출된다.
 
-        System.out.println(parent.str);
-        System.out.println(parent.getStr());
+        System.out.println(parent.str); // 기존 child의 str 변수를 오버라이드하는 것이 아니라 변수 자체로서 사용한다.(즉, 자기자신)
+        System.out.println(parent.getStr()); // 오버라이드된 메서드 호출
         parent.hello(); // static 이라 각 클래스의 이름을 가져오게된다.
         // 만약 Class의 static이 없다면 자식 클래스가 호출된다.
 
@@ -160,4 +160,32 @@ Apple
 pa
 pa
 ch
+```
+
+
+## List 다형성
+```java
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        
+        LinkedList<Integer> linkedlist = new LinkedList<Integer>();
+        Queue<Integer> queue = new LinkedList<Integer>();
+        List<Integer> list = new LinkedList<Integer>();
+
+        linkedlist.offer(1);    // boolean java.util.LinkedList.offer(Integer e)
+        queue.offer(2);         // boolean java.util.Queue.offer(Integer e)
+        // list.offer(3);       // x (에러)
+
+
+        /**
+        LinkedList는 List, Queue 등 다양한 인터페이스를 상속받는다. (implements)
+        ex) Serializable, Cloneable, Iterable<E>, Collection<E>, Deque<E>, List<E>, Queue<E>
+
+
+        */
+    }
+}
+
 ```
