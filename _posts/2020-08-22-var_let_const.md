@@ -12,6 +12,7 @@ category: javascript
 - 유연한 변수를 가질 수 있는 간단한 테스트용도
 - 복잡한 코드일 경우 값이 바뀔 우려가 있다. (위험함)
 - ES6 이후 이를 보완하기 위해 let, const 변수가 추가되었다.
+
 ```javascript
 var name = "psh"
 console.log(name)
@@ -25,6 +26,7 @@ name = "bye"
 # let
 - 변수 재선언 불가
 - 변수 재할당 가능
+
 ```javascript
 var name = "psh"
 console.log(name)
@@ -39,6 +41,7 @@ name = "bye" // 재할당 가능
 # const
 - 변수 재선언 불가
 - 변수 재할당 불가
+
 ```javascript
 var name = "psh"
 console.log(name)
