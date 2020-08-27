@@ -28,10 +28,10 @@ name = "bye"
 - 변수 재할당 가능
 
 ```javascript
-var name = "psh"
+let name = "psh"
 console.log(name)
 
-var name = "debugger" // Error
+let name = "debugger" // Error
 console.log(name)
 // Uncaught SyntaxError: Identifier 'name' has already been declared
 
@@ -43,10 +43,10 @@ name = "bye" // 재할당 가능
 - 변수 재할당 불가
 
 ```javascript
-var name = "psh"
+const name = "psh"
 console.log(name)
 
-var name = "debugger" // Error
+const name = "debugger" // Error
 console.log(name)
 // Uncaught SyntaxError: Identifier 'name' has already been declared
 
