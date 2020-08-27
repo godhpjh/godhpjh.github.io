@@ -23,6 +23,8 @@ console.log(name)
 name = "bye"
 ```
 
+<hr/>
+
 # let
 - 변수 재선언 불가
 - 변수 재할당 가능
@@ -37,6 +39,8 @@ console.log(name)
 
 name = "bye" // 재할당 가능
 ```
+
+<hr/>
 
 # const
 - 변수 재선언 불가
@@ -54,12 +58,16 @@ name = "bye" // 재할당 불가능  (Error)
 //Uncaught TypeError: Assignment to constant variable.
 ```
 
+<hr/>
+
 
 ## let과 const의 사용방법
 1) 변수 선언에는 기본적으로 const를 사용하고, 재할당이 필요한 변수를 let을 사용한다.
 
 2) 객체를 재할당하는 경우는 생각보다 흔하지 않으며 const를 사용함으로써 재할당을 방지하기 때문에 안전하다.
 
+
+<hr/>
 
 ## References
 
