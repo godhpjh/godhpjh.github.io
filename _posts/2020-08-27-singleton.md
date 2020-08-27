@@ -59,6 +59,7 @@ public class Singleton {
 }
 ```
 - 성능상에 문제점이 존재한다.
+- getInstance() 를 호출할 때 마다 synchronized 작업 처리를 해줘야 하기 때문
 
 <hr/>
 
@@ -126,4 +127,5 @@ public class Singleton {
 ## References
 
 https://asfirstalways.tistory.com/335
+
 https://gem1n1.tistory.com/96
