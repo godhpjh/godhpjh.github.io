@@ -34,6 +34,7 @@ category: java
     void print(double a, double b) // o
     void print(String s) {} // o
     int print(int a, int b, String s) // o 매개변수는 반드시 달라야하며 리턴타입은 상관없다.
+    int print(String s, int a, int b) // o 매개변수의 위치가 달라도 오버로딩이다.
 
     // 리턴타입만 다른경우 오버로딩 x
     int print(int a, int b) // x (오버로딩이 아니다) 컴파일 에러
