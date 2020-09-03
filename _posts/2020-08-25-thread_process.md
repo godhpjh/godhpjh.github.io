@@ -41,6 +41,9 @@ category: os
 - 각각의 스레드는 별도의 레지스터와 스택을 갖고 있지만, 힙 메모리는 서로 읽고 쓸 수 있다.
 - 한 스레드가 프로세스 자원을 변경하면, 다른 이웃 스레드(sibling thread)도 그 변경 결과를 즉시 볼 수 있다.
 
+
+<hr/>
+
 ## References
 
 https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html
