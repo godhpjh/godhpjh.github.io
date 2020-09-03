@@ -57,6 +57,8 @@ new Thread(() -> {
 
 <br/>
 
+<hr/>
+
 ## References
 - https://novemberde.github.io/2017/04/15/String_0.html
 - https://12bme.tistory.com/42
