@@ -124,6 +124,9 @@ public class Singleton {
 
 - 스프링에 의해 구현되는 싱글톤패턴은 Thread safety를 자동으로 보장한다. 자바로 구현하는 싱글톤패턴은 개발자의 로직에 따라 thread safety를 보장할수도, 보장하지 않을수도 있다.
 
+
+<hr/>
+
 ## References
 
 https://asfirstalways.tistory.com/335
