@@ -3,6 +3,9 @@ layout: post
 title: Singleton
 date: 2020-08-27 09:32:23 +0900
 category: java
+sitemap :
+    changefreq : daily
+    priority : 1.0
 ---
 
 # 싱글톤 패턴(Singleton Pattern)
