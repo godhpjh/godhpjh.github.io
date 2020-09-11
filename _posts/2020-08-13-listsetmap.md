@@ -3,6 +3,9 @@ layout: post
 title: Map vs Set vs List
 date: 2020-08-13 16:32:23 +0900
 category: java
+sitemap :
+    changefreq : daily
+    priority : 1.0
 ---
 
 
