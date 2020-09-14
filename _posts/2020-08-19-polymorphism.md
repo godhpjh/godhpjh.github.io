@@ -32,6 +32,9 @@ category: java
     > Child child = (Child)parent;
     > ```
 
+
+<hr/>
+
 ## 퀴즈1. 출력결과는?
 ```java
 class Fruit{ // 부모클래스
