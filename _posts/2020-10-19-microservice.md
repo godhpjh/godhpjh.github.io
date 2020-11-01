@@ -15,7 +15,7 @@ sitemap :
 
 # 장점
 
-- Improves fault isolation : 단일 모듈의 장애에 대해 전체 어플리케이션은 크게 영향을 받지 않습니다.
+- Improves fault isolation : 단일 모듈의 장애에 대해 전체 어플리케이션은 크게 영향을 받지 않습니다. 
 - Eliminates long-term commitment to a single technology stack : 각 개별 서비스에서 새로운 기술 스택을 시험하고자 한다면 바로 시작할 수 있습니다. 의존 관계가 기존 Monolithic 아키텍처보다 적고 유연합니다.
 - 기능 단위로 서비스가 되기에 새로 조인한 개발자가 기능을 더 쉽게 이해 할 수 있습니다.
 
@@ -26,3 +26,5 @@ sitemap :
 - Multiple Databases 및 트랜젝션 관리가 어려울 수 있습니다.
 - 마이크로 서비스 기반의 어플리케이션을 테스트하는 것은 번거로울 수 있습니다. 테스트를 시작하기 전에 의존성이 있는 서비스를 미리 확인해야 합니다.
 - 마이크로 서비스의 배포는 복잡 할 수 있습니다. 각 서비스 간의 조정이 필요 할 수 있습니다.
+
+eeee
