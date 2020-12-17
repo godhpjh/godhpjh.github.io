@@ -20,5 +20,4 @@ sitemap :
 
 언젠가
 정리를
-해야지
-gngngn
+해야
