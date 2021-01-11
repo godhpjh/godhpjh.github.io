@@ -18,4 +18,8 @@ sitemap :
 ## Segment
 - 하나 이상의 extent로 구성
 
-gh
+
+ 서버
+ 웹서버
+ ap서버
+ db서버
